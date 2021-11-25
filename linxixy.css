@@ -1,0 +1,326 @@
+* {box-sizing: border-box;}
+
+html,body
+{
+    overflow-x: hidden; 
+}
+
+body {
+	font-family: 'Helvetica', 'Arial', 'sans-serif';
+	background-image: url('images/Pink Background.jpg');
+}
+
+h1 {text-align: center;
+	font-size: 3vw;
+	word-spacing: 0.4em;
+	width: 100vw;
+	height: 10vh;}
+	
+
+nav  {text-align: center;
+	  border: solid 2px;
+	  border-top: solid 2px;
+	  border-color: #FBEBFC;
+	  margin-right: auto;
+	  margin-left: auto;
+	  width: 60vw;
+	  height: 8vh;
+	  border-radius: 1.2vw;}
+	  
+nav a {text-decoration: none;
+	   color: black;
+	   font-size: 1.2vw;
+	   border-right: 1px solid black;
+	   padding-right: 1.5vw;}
+
+nav a:hover {
+	color: white;
+}
+
+h2 {word-spacing: 0.25em;}
+	   
+	   
+nav li {display: inline-block;
+		width: 8.3vw;}
+		
+#temp{text-align: center;
+	  font-size: 2vw;
+	  margin-top: 3%;
+	  width: 50vw;
+	  height: 55vh;
+	  margin-right: auto;
+	  margin-left: auto;
+	  border: solid 6px #FBEBFC;
+	  margin-bottom: 7%;}
+
+#homep {position: absolute;
+		left: 21.8vw;
+		top: 26.5vh;
+		padding-right: 2vw;}
+
+#productp {position: absolute;
+		left: 29.3vw;
+		top: 26.5vh;
+		padding-right: 2.2vw;}
+
+#commsp {position: absolute;
+		left: 37.8vw;
+		top: 26.5vh;
+		padding-right: 2.2vw;}
+
+#emotep {position: absolute;
+		left: 49.8vw;
+		top: 26.5vh;
+		padding-right: 2.5vw;}
+
+#termsp {position: absolute;
+		left: 59vw;
+		top: 26.5vh;
+		padding-right: 2.5vw;}
+		
+#aboutp {position: absolute;
+		left: 73.8vw;
+		top: 26.5vh;
+		border: none;}
+
+#video {margin-top: 20%;}
+
+#welcome {font-size: 2.5vw;
+		  text-align: center;
+		  padding-top: 2%;}
+
+
+#wrapper {background: white;
+		  width: 60vw;	
+		  margin-bottom: 2vh;
+		  margin-right: auto;
+		  margin-left: auto;
+		  margin-top: 1.5%;
+		  overflow-x: hidden;
+		  overflow-y: hidden;
+		  border-radius: 2vw;
+		  border: 0.5px solid black;}
+		  
+.line {border: 1px solid black;
+	   margin-top: 5vh;
+	   margin-right: 2vw;
+	   margin-left: 2vw;}
+
+h2 {font-size: 2vw;
+    text-align: center;
+	padding-top: 2%;}
+
+.row {width: 60vw;
+	  margin-left: 3.5vw;
+	  margin-top: 4vh;
+	  margin-bottom: 7vh;}
+	  
+.image { display: inline-block;
+		 margin: 3.5%;}
+		  
+.image img {width: 13vw;
+			display: block;
+			}
+			
+.image img:hover {
+	
+	width: 16vw;
+}
+			
+.image:hover {
+	box-shadow: 2px 2px 15px 10px #FFC7EB;
+	width: 16vw;
+	border: none;
+}
+
+.image p {text-align: center;
+		  background: #FF8D79;
+		  width: 16vw;
+		  font-size: 1.7vw;
+		  color: white;
+		  margin: 0;
+		  padding-bottom: 3%;
+		  padding-top: 3%;
+		  }
+		  
+form {margin-top: 4vh;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 4vh;
+	  width: 80%;}
+	  
+label {font-size: 1.8vw;
+	   margin-bottom: 3vh;}
+
+#fullLabel {margin-right: 3vw;
+			margin-left: 11vw;}
+			
+#colorLabel {display: block;
+			 margin-left: 29.5vw;
+			 margin-top: 5vh;}
+
+
+.inputs {border: 0px;
+	   width: 2.2vw;
+	   height: 2.2vh;}
+
+	   
+#bodyTitle {font-size: 1.8vw;
+			  margin-left: 14vw;
+			  margin-bottom: 4.5vh;}
+
+#artTitle {margin-top: 10vh;
+			 margin-left: 10.6vw;
+			 font-size: 1.8vw}
+
+#thisCom {width: 25vw;
+		  margin-left: 8vw;
+		  margin-top: 5vh;
+		  border: 2px solid white;}
+		  
+#generateBtn {margin-left: 18vw;
+			  width: 10vw;
+			  font-size: 1.5vw;
+			  margin-top: 6vh;
+			  border: 2.2px solid black;
+			  padding: 5px;
+			  margin-bottom: 3vh;}
+			  
+#generateBtn:hover {border: 2.2px solid blue}
+
+#welcomeImg {width: 30vw;}
+			 
+#welcomeTxt {font-size: 3vw;}
+
+#idxWrapper {background: white;
+		  width: 30vw;
+		  margin-bottom: 2vh;
+		  margin-right: auto;
+		  margin-left: auto;
+		  margin-top: 1.5%;
+		  overflow-x: hidden;
+		  overflow-y: hidden;
+		  border-radius: 3vw;
+		  border: 0.5px solid black;}
+
+#sketchLabel   {margin-right: 4vw;
+			   margin-left: 13vw;}
+			   
+.userInput {margin-right: 1vw;
+			margin-top: 4vh;
+			margin-bottom: 3vh;
+			margin-left: 0.5vw;
+			height: 3.5vh;
+			width: 8.5vw;}
+
+.userLabels {font-size: 1vw;}
+
+#nameLabel{margin-left: 1vw;}
+
+#userPhone{width: 7vw;}
+
+#userName{width: 7vw;}
+	   
+#nameLabelH{margin-left: 8vw;}
+
+
+
+
+
+textarea {margin-left: 11vw;
+		  width: 25vw;
+		  height: 20vh;
+		  margin-top: 4vh;}
+
+#submitBtn {margin-left: 18.5vw;
+			  width: 12vw;
+			  font-size: 1.5vw;
+			  margin-top: 6vh;
+			  border: 2.2px solid black;
+			  padding: 5px;
+			  margin-bottom: 3vh;}
+
+#commInfo {float: right;
+		   font-size: 1.4vw;
+		   margin-right: 10vw;
+		   margin-top: 8vh;}
+		   
+
+.errorMsg {color: red;
+		   font-size: 1.6vw;
+		   text-align: center;
+		   margin-bottom: 3vh;}
+		   
+#headImg{width: 25vw;
+		 margin-right: auto;
+		 margin-left: 36vw;
+		 height: 20vh;
+		 margin-bottom: 2vh;}
+		 
+#extraBlockEm {font-size: 1.5vw;
+			 float: right;
+			 margin-right: 13vw;
+			 width: 20vw;
+			 border-left: 2px solid black;
+			 padding-left: 2vw;}
+			 
+.extraInfo {margin-bottom: 20%;}
+
+.thisExtra {width: 25vw;}
+
+#availability {padding-bottom: 1vh;
+			   font-size: 1.3vw;}
+
+#availability2 {padding-bottom: 4vh;}
+
+.coming {font-size: 1.3vw;}
+
+
+#extraBlockBa {font-size: 1.5vw;
+			 float: right;
+			 margin-top: 10vh;
+			 margin-right: 13vw;
+			 width: 20vw;
+			 border-left: 2px solid black;
+			 padding-left: 2vw;}
+
+
+#badge {margin-top: 8vh;}
+
+.termHead{margin-left: 1vw;
+		  width: 20vw;}
+		  
+.termLi{margin-bottom: 3.3vh;
+		margin-right: 2vw;}
+
+.termBlock {margin-bottom: 8vh;
+			margin-left: 2.5vw;}
+			
+			
+#payment {margin-left: 1vw;}
+
+.termBlock li {font-size: 1.3vw;}
+
+.termBlock h3 {font-size: 1.5vw;}
+
+#copyrightHead {margin-left: 1vw;}
+
+#termsh2 {margin-bottom: 8vh;}
+
+
+footer {text-align: center;}
+
+#copy {margin-left: 3vw;}
+
+.aboutInfo {margin-left: 1.5vw;
+		    margin-right: 1.5vw;}
+			
+#footerEmote {margin-top: 8.5vh;}
+
+#remember {	display: block;
+			margin-left: 11vw;
+			width: 10vw;
+			font-size: 1.2vw;
+			border: 2.2px solid black;
+			padding: 5px;
+			margin-bottom: 3vh;}

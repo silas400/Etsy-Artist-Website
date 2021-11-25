@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!-- Author:          Silas Little -->
+<html lang="en"><!-- Date Written:    4/16/2020   -->
+<head>          <!-- Description:     HTML for Commissions page -->
+<title>Linxixy's Commissions</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="linxixy.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Commission Linxixy to draw for you in her Art Style. Choose the Body Style and the Drawing Style">
+</head>
+<body>
+<header>
+<img id="headImg" src="images/linxixy.png" alt="Linxixy" title="Linxixy">
+</header>
+<nav>
+<ul>
+	<li><a href="index.html" id='homep'>Home</a></li>
+	<li><a href="charm.html" id='productp'>Charms</a></li>
+	<li><a href="commissions.html" id="commsp">Commissions</a></li>
+	<li><a href="emote.html" id='emotep'>Emotes</a></li>
+	<li><a href="termsndconds.html" id='termsp'>Terms&amp;Conditions</a></li>
+	<li><a href="about.html" id='aboutp'>About</a></li>
+</ul>
+</nav>
+<main>
+<div id="wrapper">
+<div id="imageContainer">
+<p id="commInfo"><strong>Price Range:</strong> $20-$30<br><br><br><strong>Estimated Time:</strong> 1 week<br><br><br><strong>Body:</strong> Full<br><br><br><strong>Art Style:</strong> Sketch</p>
+<img id="thisCom" src="images/comm4.jpg" alt="Commission Photo">
+</div>
+<div class="line">
+</div>
+<form id="theForm" novalidate="novalidate" action="processForm.php" method="post">
+<fieldset id="generateImg">
+<div class="errorMsg"></div>
+<p id = "bodyTitle">Choose a body style</p>
+<label for ="full" id="fullLabel">Full Body<input type="radio" class="inputs" id="full" name="body" value="Full Body" checked="checked"/></label>
+<label for ="half" id="halfLabel">Half Body<input type="radio" class="inputs" id="half" name="body" value="Half Body"/></label>
+<p id= "artTitle">What art style would you like?</p>
+<label for ="sketch" id="sketchLabel">Sketch<input type="radio" class="inputs" id="sketch" name="artStyle" value="Sketch" checked="checked"/></label>
+<label for ="detail" id="detaillabel">Detailed<input type="radio" class="inputs" id="detail" name="artStyle" value="Detail"/></label>
+
+<button id="generateBtn" type="button">Show Me!</button>
+</fieldset>
+
+<fieldset id="userInfo">
+<h2>Fill Out This Form To Make A Request!</h2>
+<div class="errorMsg"></div>
+<label for ="userName" id="nameLabel" class="userLabels">Name:</label>
+<input type="text" id="userName" class="userInput" name="userName">
+
+<label for ="userPhone" id="phoneLabel" class="userLabels">Phone number:</label>
+<input type="tel" id="userPhone" class="userInput" name="phone">
+
+<label for ="userEmail" id="emailLabel" class="userLabels">Email:</label>
+<input type="email" id="userEmail" class="userInput" name="email">
+<textarea name="message" id="textBox" placeholder="Enter more detail here about what you want me to draw for you... You will be contacted by phone or email"></textarea>
+<p><input type="submit" id="submitBtn" name="submitBtn" value="Send Request" /></p>
+</fieldset>
+</form>
+<footer><p>&copy; <span id="copyright"></span>. Linxixy's Art</p></footer>
+</div>
+</main>
+<script src="scripts/comms.js"></script>
+</body>
+</html>
